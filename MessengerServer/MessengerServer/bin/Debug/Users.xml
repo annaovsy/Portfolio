@@ -5,4 +5,9 @@
     <password>111</password>
     <name>Анна</name>
   </user>
+  <user>
+    <login>12345</login>
+    <password>12345</password>
+    <name>Иван</name>
+  </user>
 </Users>
