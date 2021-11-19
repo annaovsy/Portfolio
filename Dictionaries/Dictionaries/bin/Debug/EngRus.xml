@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <element>
+    <Word>hello</Word>
+    <Translation>Привет</Translation>
+  </element>
+  <element>
+    <Word>sea</Word>
+    <Translation>Море</Translation>
+  </element>
+</dictionary>
