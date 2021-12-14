@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\ClassLibraryGutenbergLib\bin\Debug\ClassLibraryGutenbergLib.dll
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\ClassLibraryGutenbergLib\bin\Debug\ClassLibraryGutenbergLib.pdb
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\ClassLibraryGutenbergLib\obj\Debug\ClassLibraryGutenbergLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\ClassLibraryGutenbergLib\obj\Debug\ClassLibraryGutenbergLib.dll
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\ClassLibraryGutenbergLib\obj\Debug\ClassLibraryGutenbergLib.pdb
