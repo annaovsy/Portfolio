@@ -7,16 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="10*"/>
-        </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button x:Name="SignInBtn" Content="Sign In" Width="200" Click="SignIn_Click"></Button>
-            <Button x:Name="SignUpBtn" Content="Sign Up" Width="200" Click="SignUp_Click"></Button>
-        </StackPanel>
-        <TextBlock Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" TextAlignment="Center" FontSize="22">
-            Добро пожаловать в Project Gutenberg<LineBreak />
-            Project Gutenberg - это библиотека, содержащая более 60 000 бесплатных электронных книг.</TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="4">
+            <TabItem Header="Главная" Height="40">
+                <StackPanel>
+                    <Button x:Name="SignInBtn" Content="Sign In" Width="200" Click="SignIn_Click"></Button>
+                    <Button x:Name="SignUpBtn" Content="Sign Up" Width="200" Click="SignUp_Click"></Button>
+                    <TextBlock x:Name="mainTextBlock" TextWrapping="Wrap" Margin="0,100,0,0" VerticalAlignment="Center" TextAlignment="Center" FontSize="22" HorizontalAlignment="Center" RenderTransformOrigin="0.499,1.859">
+                    
+                    </TextBlock>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Мои книги" Height="40">
+                
+            </TabItem>
+            <TabItem Header="Поиск" Height="40">
+
+            </TabItem>
+            <TabItem Header="что-то еще" Height="40">
+
+            </TabItem>
+        </TabControl>
+        
+        
     </Grid>
 </Window>

@@ -29,11 +29,11 @@ namespace LibraryGutenbergServer
         public void MessageForwarding()
         {
             string message;
-            message = user.UserName + " вошел в чат";
+            message = user.UserName + " connected";
             bFormatter.Serialize(Stream, user);
             // посылаем сообщение о входе в чат всем подключенным пользователям
-            server.BroadcastMessage(message, user.Login);
-            Console.WriteLine(message);
+            //server.BroadcastMessage(message, user.Login);
+            //Console.WriteLine(message);
             // в бесконечном цикле получаем сообщения от клиента
             while (true)
             {
@@ -42,13 +42,13 @@ namespace LibraryGutenbergServer
                     message = GetMessage();
                     message = String.Format("{0}: {1}", user.UserName, message);
                     Console.WriteLine(message);
-                    server.BroadcastMessage(message, user.Login);
+                    //server.BroadcastMessage(message, user.Login);
                 }
                 catch
                 {
-                    message = String.Format("{0}: покинул чат", user.UserName);
+                    message = String.Format("{0}: disconnected", user.UserName);
                     Console.WriteLine(message);
-                    server.BroadcastMessage(message, user.Login);
+                    //server.BroadcastMessage(message, user.Login);
                     break;
                 }
             }
@@ -65,7 +65,7 @@ namespace LibraryGutenbergServer
                 {
                     if (Registration("Users.xml", user))
                     {
-                        MessageForwarding();
+                        //MessageForwarding();
                     }
                 }
                 else if (user.Action == "SignIn")

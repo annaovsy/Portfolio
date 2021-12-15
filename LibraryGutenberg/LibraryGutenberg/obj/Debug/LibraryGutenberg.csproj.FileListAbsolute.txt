@@ -18,3 +18,5 @@ C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\bin\Debug
 C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\bin\Debug\ClassLibraryGutenbergLib.pdb
 C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\obj\Debug\SignIn.baml
 C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\obj\Debug\LibraryGutenberg.csproj.CopyComplete
+C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\obj\Debug\SignUp.g.cs
+C:\Users\user\source\repos\Portfolio\LibraryGutenberg\LibraryGutenberg\obj\Debug\SignUp.baml

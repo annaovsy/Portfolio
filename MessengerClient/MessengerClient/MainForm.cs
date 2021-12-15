@@ -66,6 +66,7 @@ namespace MessengerClient
         {
             Disconnect();
         }
+
         void ThreadStart()
         {
             // запускаем новый поток для получения данных

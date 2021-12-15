@@ -26,10 +26,12 @@ namespace LibraryGutenberg
         TcpClient client;
         NetworkStream stream;
         User user = new User();
+        string hi = "Добро пожаловать в Project Gutenberg /nProject Gutenberg - это библиотека, содержащая более 60 000 бесплатных электронных книг.";
 
         public MainWindow()
         {
             InitializeComponent();
+            mainTextBlock.Text = hi;
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
@@ -44,7 +46,7 @@ namespace LibraryGutenberg
                 SignInBtn.IsEnabled = false;
                 SignUpBtn.IsEnabled = false;
                 MessageBox.Show($"Добро пожаловать, {user.UserName}");
-
+                mainTextBlock.Text = $"Добро пожаловать, {user.UserName}";
                 //ThreadStart();
             }
         }
@@ -61,11 +63,13 @@ namespace LibraryGutenberg
                 SignInBtn.IsEnabled = false;
                 SignUpBtn.IsEnabled = false;
                 MessageBox.Show($"Добро пожаловать, {user.UserName}");
-
+                mainTextBlock.Text = $"Добро пожаловать, {user.UserName}";
                 //ThreadStart();
             }
 
         }
+
+
 
         //void ThreadStart()
         //{
