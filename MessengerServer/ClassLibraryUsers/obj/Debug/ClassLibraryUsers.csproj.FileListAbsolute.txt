@@ -1,5 +1,0 @@
-C:\Users\user\source\repos\Portfolio\MessengerServer\ClassLibraryUsers\bin\Debug\ClassLibraryUsers.pdb
-C:\Users\user\source\repos\Portfolio\MessengerServer\ClassLibraryUsers\obj\Debug\ClassLibraryUsers.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\Portfolio\MessengerServer\ClassLibraryUsers\obj\Debug\ClassLibraryUsers.dll
-C:\Users\user\source\repos\Portfolio\MessengerServer\ClassLibraryUsers\obj\Debug\ClassLibraryUsers.pdb
-C:\Users\user\source\repos\Portfolio\MessengerServer\ClassLibraryUsers\obj\Debug\ClassLibraryUsers.csproj.CopyComplete
