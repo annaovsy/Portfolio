@@ -1,10 +1,10 @@
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\bin\Debug\LibraryGutenbergServer.exe.config
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\bin\Debug\LibraryGutenbergServer.exe
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\bin\Debug\LibraryGutenbergServer.pdb
-C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.csprojAssemblyReference.cache
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.exe
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.pdb
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\bin\Debug\ClassLibraryGutenbergLib.dll
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\bin\Debug\ClassLibraryGutenbergLib.pdb
 C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.csproj.CopyComplete
+C:\Users\user\source\repos\Portfolio\LibraryGutenbergServer\LibraryGutenbergServer\obj\Debug\LibraryGutenbergServer.csproj.AssemblyReference.cache
